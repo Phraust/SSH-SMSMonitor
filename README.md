@@ -5,7 +5,7 @@ A simple python script to test a remote server's uptime by trying to make an SSH
 
 This is a blatant rip-off of Motoma's [elegantly simple monitoring script](http://motoma.io/basic-server-monitoring-with-python/) which I could have never put together myself.  I pulled out his emailer, and replaced it with the same pygooglevoice that is used in the [BFGMiner-SMSMonitor](https://github.com/Phraust/BFGMiner-SMSMonitor).
 
-*I use this script as a cron job on a different server, to make sure that it's always up.  With my [BFGMiner-SMSMonitor](https://github.com/Phraust/BFGMiner-SMSMonitor) script, I've had issues where there would be a power failure, and the server would be down without me knowing about it.  This is my first stab at trying to fix that.*
+*I use this script as a cron job on a different server, to make sure that my miner is always up.  With my [BFGMiner-SMSMonitor](https://github.com/Phraust/BFGMiner-SMSMonitor) script, I've had issues where there would be a power failure, and the server would be down without me knowing about it.  This is my first stab at trying to fix that.*
 
 REQUIREMENTS
 ------------
